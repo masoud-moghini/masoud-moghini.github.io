@@ -1,1 +1,113 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="intro" style="text-align: center">
+                <h1>Welcome To My Website</h1>
+                <p>My favorite field is to design and implement <strong>enterprise</strong> ,<strong> data-intensive </strong>applications   </p>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <h1>Develope Back-end application services using Node.js</h1>
+                    <ul>
+                        <li>implement restful api's using node.js and <strong>expressjs</strong> library</li>
+                        <li>craft <strong>relational</strong> data models, fulfill query over them using <strong>sequelize.js</strong> orm and sql </li>
+                        <li>craft and query over <strong>non-relational</strong> databases ,specifically <strong>mongodb</strong></li>
+                        <li>develop application complying with <strong>MVC</strong> (model-view-controller) architecture</li>
+                        <li>authenticate users using both session based and ,preferely ,token based approach(jwt)</li>
+                        <li>solid knowledge of <strong>asynchronous</strong> programming in js using Promises and utility libraries,namely <strong>async.js</strong> </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="slide" id="slide2">
+                <div class="intro">
+                    <h1>Develope Front-end application services using React.js</h1>
+                    <ul>
+                        <li>design and implement appropriate components hierarchy </li>
+                        <li>solid knowledge of lifecycle-hook methods of a component</li>
+                        <li>Global State Management using <strong>Redux</strong></li>
+                        <li>experience with graphical 3-rd party components including <strong>semantic-ui</strong> and <strong>material-ui</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" id="slide3">
+                <div class="intro">
+                    <h1>Develope Front-end application services using Vue.js</h1>
+                    <ul>
+                        <li>design and implement appropriate components hierarchy </li>
+                        <li>solid knowledge of lifecycle-hook methods of a component</li>
+                        <li>Global State Management using <strong>Vuex</strong></li>
+                        <li>experience with graphical 3-rd party components including <strong>vue-bootstrap</strong>,<strong>vuetify.js,</strong> <strong>vue-semanticui</strong> and <strong>vue-material</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" id="slide4">
+                <div class="intro">
+                    <h1>Develope Front-end application services using Angular2</h1>
+                    <ul>
+                        <li>design and implement appropriate components hierarchy </li>
+                        <li>solid knowledge of lifecycle-hook methods of a component</li>
+                        <li>subscribing to event using observable objects</li>
+                        <li>experience with graphical 3-rd party component<strong>angular material</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <div class="intro">
+                    <p>my own preference is to develop js-based app using <strong>typescript</strong> and then run the js-compiled version</p>
+                </div>
+            </div>
+    
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>General Interests</h1>
+                <ul>
+                    <li>System design and analysis using software engineering methods</li>
+                    <li>Innotatively usage of technology in financial uses</li>
+                    <li>co-operation using impressive facilities of git version control</li>
+                    <li>team leadership and project planning</li>
+                    <li>harnessing design patterns and writting less do more</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro contact">
+                <p>Email: moghiny@gmail.com</p>
+                <p>Whatsapp:09109043046</p>
+                <p>Medium: <a href="https://medium.com/@moghiny" style="color: inherit">click here</a></p>
+            </div>
+        </div>
+    </div>
+
+    
+    </body>
+<footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/easings.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.min.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C','#42f5cb'],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Welcome Slide', 'JS based skills','interests', 'Contact me']
+        });
+    </script>
+</footer>
+</html>
